@@ -1,7 +1,7 @@
 # :alarm_clock:alarm-react-app
-:bulb: 알람 앱 React 리뷰용 미니 프로젝트
+알람 앱 React 리뷰용 미니 프로젝트
 
-## :sun_with_face:프로젝트 주제 소개
+## :bulb:프로젝트 주제 소개
 - :one: 알람 추가, 삭제 및 수정기능
 - :two: 지정한 시간이 되면 알람음이 울리고, 알람 끄기 버튼으로 알람을 끌 수 있음
 
@@ -41,7 +41,7 @@ npm i (install)
 npm start
 ```
 
-<img src="https://icongr.am/devicon/chrome-original-wordmark.svg?size=128&color=currentColor" width="50" height="50" /> 브라우저로 실행 권장
+<img src="https://icongr.am/devicon/chrome-original.svg?size=128&color=currentColor" width="50" height="50" /> 브라우저로 실행 권장
 
 ## :interrobang:트러블슈팅(에러 내역, 어떻게 해결했는지)
 :x:문제 : User 객체 String Id Column Primary key 설정시 테이블 생성 불가 문제<br>
