@@ -23,7 +23,7 @@ function App() {
 	};
 
 	const updateAlarmHandler = (id, text) => {
-		const updatedItem = alarms.map(alarm => alarm.id === id ? { ...alarm, name: text } : alarm);
+		const updatedItem = alarms.map(alarm => alarm.id === id ? { ...alarm, title: text } : alarm);
 		setAlarms(updatedItem);
 	};
 

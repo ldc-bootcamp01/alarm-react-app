@@ -23,7 +23,7 @@ const Alarm = (props) => {
 
 	const updateHandler = (event) => {
 		setInputText(event.target.value);
-
+	
 		if (event.key === 'Enter') { // 엔터키를 눌렀을 때
 			props.onUpdate(props.id, inputText);
 			setIsEditing(!isEditing);
