@@ -1,7 +1,7 @@
-# :sun_with_face:alarm-react-app
+# :alarm_clock:alarm-react-app
 :bulb: 알람 앱 React 리뷰용 미니 프로젝트
 
-## :alarm_clock:프로젝트 주제 소개
+## :sun_with_face:프로젝트 주제 소개
 - :one: 사용자 지정 시간에 맞춰 알람해주는 애플리케이션
 - :two: 알람 추가, 삭제 및 수정기능
 - :three: 매번 
@@ -16,30 +16,32 @@
 
 ![React Component Chart](/public/react_component_chart.png "React Component Chart")
 
-- :clapper:Movie : 기본적인 영화정보
+- Form : 기본적인 영화정보
   - :id:id : 영화 id값
   - :name_badge:name : 영화명
   - :dollar:price : 영화가격
 
-- :cinema:Auditorium : 상영관 (영화관 1관, 2관, ...) 상영관 및 영화에 관한 정보 가지고 있음
+- Header : 상영관 (영화관 1관, 2관, ...) 상영관 및 영화에 관한 정보 가지고 있음
   - :id:id : 상영관 id값
   - :clapper:Movie : 해당 상영관에서 상영하는 영화
   - :ballot_box_with_check:maxSeatCount : 최대 좌석수
 
-- :seat:Seat : 좌석 (좌석 A1, A2, B1, ...) 좌석, 상영관, 영화에 대한 정보를 가지고 있음
+- Alarm : 좌석 (좌석 A1, A2, B1, ...) 좌석, 상영관, 영화에 대한 정보를 가지고 있음
   - :id:id : 좌석 id값
   - :name_badge:name : 좌석명
   - :cinema:auditorium : 해당 좌석이 위치한 상영관
 
-- :smile:User : 기본적인 유저정보
+- Alarms : 기본적인 유저정보
   - :id:id : 유저 아이디
   - :no_entry_sign:password : 유저 비밀번호
 
-- :ticket:Ticket : 예매티켓, 좌석, 상영관, 영화, 유저 정보 다 가지고 있음
+- MainFooter : 예매티켓, 좌석, 상영관, 영화, 유저 정보 다 가지고 있음
   - :id:id : 티켓 id 값 (한 좌석당 한 티켓이 존재하므로 좌석 id값과 동일)
   - :date:timeStamp : 티켓 발행 시간 및 날짜
-  - :seat:Seat : 해당 티켓의 좌석 정보
-  - :smile:User : 해당 티켓의 유저 정보
+
+- Main : 예매티켓, 좌석, 상영관, 영화, 유저 정보 다 가지고 있음
+  - :id:id : 티켓 id 값 (한 좌석당 한 티켓이 존재하므로 좌석 id값과 동일)
+  - :date:timeStamp : 티켓 발행 시간 및 날짜
 
 ## :heavy_check_mark:요구사항
 <p>
@@ -61,12 +63,6 @@
 
 **MySQL 8.0 Command Line Client 에 붙여넣어 sql 문들을 실행해 주세요.**
 
-![MySQL 8.0 Command Line Client Screenshot](/images/movie-sql1.png "MySQL Screenshot")
-
-## :pencil:ERD
-![ER Diagram for movie reservation project](/images/movie-erd1.png "ER Diagram")
-
-## :book:API Document(선택) - RestAPI 사용했을 경우
 
 ## :interrobang:트러블슈팅(에러 내역, 어떻게 해결했는지)
 :x:문제 : User 객체 String Id Column Primary key 설정시 테이블 생성 불가 문제<br>
