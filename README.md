@@ -12,8 +12,7 @@
 - :bust_in_silhouette:김현수 : 페이지 / 기본 페이지 프론트엔드 구현
 - :bust_in_silhouette:이영주 : 조회 / 조회 확인 기능 백엔드 구현
 
-## :fire:React 
-<img src="https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor" width="50" height="50"/> 컴포넌트 구성
+## :fire:React <img src="https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor" width="50" height="50"/> 컴포넌트 구성
 - :clapper:Movie : 기본적인 영화정보
   - :id:id : 영화 id값
   - :name_badge:name : 영화명
