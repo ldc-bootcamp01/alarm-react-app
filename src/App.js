@@ -11,11 +11,11 @@ function App() {
 
 	const addAlarmHandler = (inputs) => {
 		const newAlarm = {
-			id3: count++,
-			hour3: inputs.hour,
-			minute3: inputs.minute,
-			title3: inputs.title,
-			ampm3: inputs.ampm
+			id: count++,
+			hour: inputs.hour,
+			minute: inputs.minute,
+			title: inputs.title,
+			ampm: inputs.ampm
 		};
 
 		setAlarms([...alarms, newAlarm]);
