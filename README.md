@@ -6,9 +6,9 @@
 - :two: 지정한 시간이 되면 알람음이 울리고, 알람 끄기 버튼으로 알람을 끌 수 있음
 
 ## :sunglasses:팀원 명단
-- :bust_in_silhouette:이동찬 : 알람 추가 기능 및 알람 소리 기능 구현
-- :bust_in_silhouette:김현수 : 알람 현재시간 기능 및 알람울림 시간 로직(logic) 구현
-- :bust_in_silhouette:이영주 : 알람 Alert 기능 및 알람 앱 Frontend CSS 구현
+- :man:이동찬 : 알람 추가 기능 및 알람 소리 기능 구현
+- :man:김현수 : 알람 현재시간 기능 및 알람울림 시간 로직(logic) 구현
+- :man:이영주 : 알람 Alert 기능 및 알람 앱 Frontend CSS 구현
 
 ## <img src="https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor" width="50" height="50"/> 컴포넌트 구성
 
@@ -35,10 +35,12 @@
 ## :heavy_check_mark:요구사항
 
 <img src="https://icongr.am/devicon/npm-original-wordmark.svg?size=128&color=currentColor" width="50" height="50" />
+
 ```
 npm i (install)
 npm start
 ```
+
 <img src="https://icongr.am/devicon/chrome-original-wordmark.svg?size=128&color=currentColor" width="50" height="50" /> 브라우저로 실행 권장
 
 ## :interrobang:트러블슈팅(에러 내역, 어떻게 해결했는지)
@@ -49,7 +51,7 @@ npm start
 :o:해결 : 따로 Controller를 만들고 로그인 성공과 로그아웃 성공 시 넘겨주어 문제 해결
 
 ## :rainbow:느낀점
-- :bust_in_silhouette:이동찬 : React 뿐만 아니라 Git 와 GitHub 까지 리뷰할수 있어서 의미있던 프로젝트였습니다. 팀원들의 도움으로 멋진 결과물이 나온거 같습니다. :clap:
-- :bust_in_silhouette:김현수 : -
-- :bust_in_silhouette:이영주 : 
+- :man:이동찬 : React 뿐만 아니라 Git 와 GitHub 까지 리뷰할수 있어서 의미있던 프로젝트였습니다. 팀원들의 도움으로 멋진 결과물이 나온거 같습니다. :clap:
+- :man:김현수 : -
+- :man:이영주 : 
 
