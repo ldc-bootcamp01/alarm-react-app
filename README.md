@@ -4,7 +4,7 @@
 ## :sun_with_face:프로젝트 주제 소개
 - :one: 사용자 지정 시간에 맞춰 알람해주는 애플리케이션
 - :two: 알람 추가, 삭제 및 수정기능
-- :three: 매번 
+- :three: 지정한 시간이 
 <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"/> 사진찍을때 시간 놓치신다면 적극 추천!
 
 ## :sunglasses:팀원 명단
