@@ -13,6 +13,9 @@
 - :bust_in_silhouette:이영주 : 조회 / 조회 확인 기능 백엔드 구현
 
 ## <img src="https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor" width="50" height="50"/> 컴포넌트 구성
+
+![React Component Chart](/public/react_component_chart.png "React Component Chart")
+
 - :clapper:Movie : 기본적인 영화정보
   - :id:id : 영화 id값
   - :name_badge:name : 영화명
