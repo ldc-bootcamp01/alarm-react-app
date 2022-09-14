@@ -14,23 +14,23 @@
 
 ![React Component Chart](/public/react_component_chart.png "React Component Chart")
 
-- ![#FF8C00](https://via.placeholder.com/15/1589F0/1589F0.png) `Form` : Alarms 컴포넌트에 Alarm 을 추가하기 위한 Form 컴포넌트
+- ![#FF8C00](https://via.placeholder.com/15/FF8C00/FF8C00.png) `Form` : Alarms 컴포넌트에 Alarm 을 추가하기 위한 Form 컴포넌트
   - 알람 제목 / 오전 오후 / 시 / 분 정보 입력후 알람을 추가할 수 있다
 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `Header` : 앱 제목과 현재 시간, 그리고 Form 컴포넌트로 구성된 컴포넌트
   - 현재시간은 매초 업데이트된다
 
-- ![#6495ED](https://via.placeholder.com/15/1589F0/1589F0.png) `Alarm` : 하나의 알람의 정보를 가지고 있는 컴포넌트
+- ![#6495ED](https://via.placeholder.com/15/6495ED/6495ED.png) `Alarm` : 하나의 알람의 정보를 가지고 있는 컴포넌트
   - 알람 제목을 더블 클릭하면 제목을 수정할 수 있다
   - 알람 오른쪽의 X 버튼 누르면 알람이 삭제된다
   - 각 알람의 시간과 현재시간이 동일할때 알람소리가 울리고 '알람끄기' 버튼이 생성된다
   - '알람끄기' 버튼을 누르면 알람소리가 멈춰진다
 
-- ![#9400D3](https://via.placeholder.com/15/1589F0/1589F0.png) `Alarms` : Alarm 컴포넌트들의 목록
+- ![#9400D3](https://via.placeholder.com/15/9400D3/9400D3.png) `Alarms` : Alarm 컴포넌트들의 목록
 
-- ![#228B22](https://via.placeholder.com/15/1589F0/1589F0.png) `MainFooter` : Alarm 컴포넌트의 갯수를 표시하는 컴포넌트
+- ![#228B22](https://via.placeholder.com/15/228B22/228B22.png) `MainFooter` : Alarm 컴포넌트의 갯수를 표시하는 컴포넌트
 
-- ![#0000FF](https://via.placeholder.com/15/1589F0/1589F0.png) `Main` : Alarms 와 MainFooter 컴포넌트로 구성된 컴포넌트
+- ![#0000FF](https://via.placeholder.com/15/0000FF/0000FF.png) `Main` : Alarms 와 MainFooter 컴포넌트로 구성된 컴포넌트
 
 ## :heavy_check_mark:요구사항
 <p>
