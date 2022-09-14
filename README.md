@@ -14,7 +14,7 @@
 
 ![React Component Chart](/public/react_component_chart.png "React Component Chart")
 
-- '''<span style="color:orange">Form</span>''' : Alarms 컴포넌트에 Alarm 을 추가하기 위한 Form 컴포넌트
+- ```<span style="color:orange">Form</span>``` : Alarms 컴포넌트에 Alarm 을 추가하기 위한 Form 컴포넌트
   - 알람 제목 / 오전 오후 / 시 / 분 정보 입력후 알람을 추가할 수 있다
 
 - <span style="color:red">Header</span> : 앱 제목과 현재 시간, 그리고 Form 컴포넌트로 구성된 컴포넌트
