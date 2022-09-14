@@ -33,7 +33,7 @@ const Alarm = (props) => {
 	const blurHandler = () => {
 		setIsEditing(!isEditing);
 	};
-
+	
 	let element;
 	if (isEditing) {
 		element = (
