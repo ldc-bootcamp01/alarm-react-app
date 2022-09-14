@@ -8,7 +8,7 @@
 ## :sunglasses:팀원 명단
 - :man:이동찬 : 알람 추가 기능 및 알람 소리 기능 구현
 - :man:김현수 : 알람 현재시간 기능 및 알람울림 시간 로직(logic) 구현
-- :man:이영주 : 알람 Alert 기능 및 알람 앱 Frontend CSS 구현
+- :woman:이영주 : 알람 Alert 기능 및 알람 앱 Frontend CSS 구현
 
 ## <img src="https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor" width="50" height="50"/> 컴포넌트 구성
 
@@ -55,5 +55,5 @@ npm start
 ## :rainbow:느낀점
 - :man:이동찬 : React 뿐만 아니라 Git 와 GitHub 까지 리뷰할수 있어서 의미있던 프로젝트였습니다. 팀원들의 도움으로 멋진 결과물이 나온거 같습니다. :clap:
 - :man:김현수 : -
-- :man:이영주 : 
+- :woman:이영주 : 
 
