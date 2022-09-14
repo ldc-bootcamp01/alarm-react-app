@@ -33,7 +33,7 @@ const Alarm = (props) => {
 	const blurHandler = () => {
 		setIsEditing(!isEditing);
 	};
-	
+
 	let element;
 	if (isEditing) {
 		element = (
@@ -58,7 +58,7 @@ const Alarm = (props) => {
 				<label onDoubleClick={doubleClickHandler}>
 					{props.title}
 				</label>
-				<span>{props.ampm} {props.hour} 시 {props.minute} 분</span>
+				<div className='alarmSpan'><span>{props.ampm} {props.hour} 시 {props.minute} 분</span></div>
 				<button className='destroy' onClick={deleteHandler} />
 			</div>
 		);

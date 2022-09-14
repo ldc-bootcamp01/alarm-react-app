@@ -23,8 +23,9 @@ button {
 body {
 	/* font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif; */
 	font-family: 'Jua', sans-serif;
-	line-height: 1.4em;
-	background: #f5f5f5;
+	line-height: 2em;
+	/* background: #f5f5f5; */
+	background-color: #e0e2e4;
 	color: #4d4d4d;
 	min-width: 230px;
 	max-width: 550px;
@@ -43,11 +44,15 @@ body {
 }
 
 .todoapp {
-	background: #fff;
-	margin: 130px 0 40px 0;
+	background: #c6bcb6;
+	margin: 200px 0 40px 0;
 	position: relative;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
 	            0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.todoapp .formInput {
+	text-align: center;
 }
 
 .todoapp input::-webkit-input-placeholder {
@@ -70,12 +75,25 @@ body {
 
 .todoapp h1 {
 	position: absolute;
-	top: -155px;
+	top: -200px;
 	width: 100%;
 	font-size: 80px;
 	font-weight: 100;
 	text-align: center;
-	color: rebeccapurple;
+	color: #625750;
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+
+.todoapp h2 {
+	position: absolute;
+	top: -100px;
+	width: 100%;
+	font-size: 60px;
+	font-weight: 100;
+	text-align: center;
+	color: #96897f;
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
@@ -99,8 +117,8 @@ body {
 	height: 50px;
 	overflow: hidden;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
-	            0 8px 0 -3px #f6f6f6,
+	            0 8px 0 -3px #c6bcb6,
 	            0 9px 1px -3px rgba(0, 0, 0, 0.2),
-	            0 16px 0 -6px #f6f6f6,
+	            0 16px 0 -6px #c6bcb6,
 	            0 17px 2px -6px rgba(0, 0, 0, 0.2);
 }
