@@ -33,25 +33,13 @@
 - ![#0000FF](https://via.placeholder.com/15/0000FF/0000FF.png) `Main` : Alarms 와 MainFooter 컴포넌트로 구성된 컴포넌트
 
 ## :heavy_check_mark:요구사항
-<p>
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"/>
-</p>
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original-wordmark.svg" width="50" height="50" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" width="50" height="50" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50" />
-</p>
 
-:warning: 
-
-**초기 DB 데이터 추가를 위해 src/main/webapp/sql/table.sql 파일에서 sql 문들을 복사하여**
-
-**MySQL 8.0 Command Line Client 에 붙여넣어 sql 문들을 실행해 주세요.**
-
+<img src="https://icongr.am/devicon/npm-original-wordmark.svg?size=128&color=currentColor" width="50" height="50" />
+```
+npm i (install)
+npm start
+```
+<img src="https://icongr.am/devicon/chrome-original-wordmark.svg?size=128&color=currentColor" width="50" height="50" /> 브라우저로 실행 권장
 
 ## :interrobang:트러블슈팅(에러 내역, 어떻게 해결했는지)
 :x:문제 : User 객체 String Id Column Primary key 설정시 테이블 생성 불가 문제<br>
@@ -59,10 +47,9 @@
 
 :x:문제 : 처음 Main 화면에 접속 시 영화정보 리스트를 표현할 때 jsp 파일에서 Controller로 넘어가지 못해 리스트 표현 불가 문제<br>
 :o:해결 : 따로 Controller를 만들고 로그인 성공과 로그아웃 성공 시 넘겨주어 문제 해결
-ㅁㄴㅇㄻㄴㅇㄹ
 
 ## :rainbow:느낀점
-- :bust_in_silhouette:이동찬 : 시작하기전엔 간단한 기능같았는데 막상 구현해보니 DB 테이블 구성부터 백엔드 프런트엔드 연결 등 어려운점이 많아 놀랐습니다. 팀원들의 도움과 구글 없었으면 절대 완성 못했을듯...ㅎㅎ
-- :bust_in_silhouette:김현수 : 프론트 부분은 어색해서 한참 헤맸는데 이번에 화면 연결 구성에 대해서 많은 공부를 하였습니다. 그리고 백엔드도 보느라 머리 터질뻔....
+- :bust_in_silhouette:이동찬 : React 뿐만 아니라 Git 와 GitHub 까지 리뷰할수 있어서 의미있던 프로젝트였습니다. 팀원들의 도움으로 멋진 결과물이 나온거 같습니다. :clap:
+- :bust_in_silhouette:김현수 : -
 - :bust_in_silhouette:이영주 : 
 
