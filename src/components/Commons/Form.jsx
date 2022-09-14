@@ -19,12 +19,28 @@ const Form = (props) => {
     };
 
     const hourChangeHandler = (event) => { 
-        setInputs({ ...inputs, hour: event.target.value });
+        let inputHour = event.target.value;
+        if (inputHour >= 1 && inputHour <= 9) {
+            inputHour = String(inputHour).padStart(2, "0");
+        } else {
+            if (String(inputHour).charAt(0) === '0') {
+                inputHour = String(inputHour).substring(1);
+            }
+        }
+        setInputs({ ...inputs, hour: inputHour });
         console.log(inputs);
     };
 
     const minuteChangeHandler = (event) => { 
-        setInputs({ ...inputs, minute: event.target.value });
+        let inputMinute = event.target.value;
+        if (inputMinute >= 0 && inputMinute <= 9) {
+            inputMinute = String(inputMinute).padStart(2, "0");
+        } else {
+            if (String(inputMinute).charAt(0) === '0') {
+                inputMinute = String(inputMinute).substring(1);
+            }
+        }
+        setInputs({ ...inputs, minute: inputMinute });
         console.log(inputs);
     };
 
