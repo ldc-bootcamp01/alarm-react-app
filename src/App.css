@@ -55,6 +55,10 @@ body {
 	text-align: center;
 }
 
+.todoapp .almElement {
+	text-align: center;
+}
+
 .todoapp input::-webkit-input-placeholder {
 	font-style: italic;
 	font-weight: 300;

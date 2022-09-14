@@ -7,7 +7,7 @@ const Form = (props) => {
 
     const submitHandler = (event) => { 
         event.preventDefault();
-        console.log('You clicked submit');
+        console.log(inputs);
         props.submit(inputs);
         // 입력상자 초기화
         setInputs({ hour: '', minute: '', title: '' , ampm: inputs.ampm });     
@@ -15,7 +15,7 @@ const Form = (props) => {
 
     const titleChangeHandler = (event) => { 
         setInputs({ ...inputs, title: event.target.value });
-        console.log(inputs);
+        // console.log(inputs);
     };
 
     const hourChangeHandler = (event) => { 
@@ -28,7 +28,7 @@ const Form = (props) => {
             }
         }
         setInputs({ ...inputs, hour: inputHour });
-        console.log(inputs);
+        // console.log(inputs);
     };
 
     const minuteChangeHandler = (event) => { 
@@ -41,12 +41,12 @@ const Form = (props) => {
             }
         }
         setInputs({ ...inputs, minute: inputMinute });
-        console.log(inputs);
+        // console.log(inputs);
     };
 
     const ampmChangeHandler = (event) => { 
         setInputs({ ...inputs, ampm: event.target.value });
-        console.log(inputs);
+        // console.log(inputs);
     };
 
     return (
