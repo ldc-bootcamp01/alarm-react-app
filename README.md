@@ -44,12 +44,12 @@ npm start
 <img src="https://icongr.am/devicon/chrome-original.svg?size=128&color=currentColor" width="50" height="50" /> 브라우저로 실행 권장
 
 ## :interrobang:트러블슈팅(에러 내역, 어떻게 해결했는지)
-:x:문제 : setInterval(callbackFn) 함수가 원하던대로 1초에 한번 작동하지 않고, 1초에 수십번 호출됨. 
-:exclamation:분석: 정확한 원인은 모르겠으나, state가 바뀔때마다 화면이 렌더링되고, 그때마다 setInterval()이 계속 호출되서 정상적으로 작동하지 않는거 같음
+:x:문제 : setInterval(callbackFn) 함수가 원하던대로 1초에 한번 작동하지 않고, 1초에 수십번 호출됨.<br/>
+:exclamation:분석: 정확한 원인은 모르겠으나, state가 바뀔때마다 화면이 렌더링되고, 그때마다 setInterval()이 계속 호출되서 정상적으로 작동하지 않는거 같음<br/>
 :o:해결 : useEffect() 의 두번째 인자에 빈 배열 [] 을 사용할경우 첫 렌더링때만 setInterval() 함수 호출 가능
   
-:x:문제 : 알람을 끔과 동시에 알람이 다시 시작되는 문제
-:exclamation:예시: 3시 28분 알람을 3시 28분 20초에 껐을 경우, 현재 시간은 아직 3시 28분 이므로, 알람이 다시 설정됨.
+:x:문제 : 알람을 끔과 동시에 알람이 다시 시작되는 문제<br/>
+:exclamation:예시: 3시 28분 알람을 3시 28분 20초에 껐을 경우, 현재 시간은 아직 3시 28분 이므로, 알람이 다시 설정됨.<br/>
 :o:해결 : 가장 최근에 실행했던 Alarm id 값을 state에 저장해서 해당 id의 알람은 알람 시작 로직(logic) 에서 건너뛰기
 
 ## :rainbow:느낀점
