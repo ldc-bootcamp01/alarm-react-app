@@ -44,11 +44,13 @@ npm start
 <img src="https://icongr.am/devicon/chrome-original.svg?size=128&color=currentColor" width="50" height="50" /> 브라우저로 실행 권장
 
 ## :interrobang:트러블슈팅(에러 내역, 어떻게 해결했는지)
-:x:문제 : User 객체 String Id Column Primary key 설정시 테이블 생성 불가 문제<br>
-:o:해결 : Column을 String으로 선언시 default length 255, length가 길면 PK 설정 불가, @Column(length = 100)으로 문제 해결
+:x:문제 : setInterval(callbackFn) 함수가 원하던대로 1초에 한번 작동하지 않고, 1초에 수십번 호출됨. 
+분석: 정확한 원인은 모르겠으나, state가 바뀔때마다 화면이 렌더링되고, 그때마다 setInterval()이 계속 호출되서 정상적으로 작동하지 않는거 같음
+:o:해결 : useEffect() 의 두번째 인자에 빈 배열 [] 을 사용할경우 첫 렌더링때만 setInterval() 함수 호출 가능
 
-:x:문제 : 처음 Main 화면에 접속 시 영화정보 리스트를 표현할 때 jsp 파일에서 Controller로 넘어가지 못해 리스트 표현 불가 문제<br>
-:o:해결 : 따로 Controller를 만들고 로그인 성공과 로그아웃 성공 시 넘겨주어 문제 해결
+:x:문제 : 알람을 끔과 동시에 알람이 다시 시작되는 문제
+예시: 3시 28분 알람을 3시 28분 20초에 껐을 경우, 현재 시간은 아직 3시 28분 이므로, 알람이 다시 설정됨.
+:o:해결 : 가장 최근에 실행했던 Alarm id 값을 state에 저장해서 해당 id의 알람은 알람 시작 로직(logic) 에서 건너뛰기
 
 ## :rainbow:느낀점
 - :man:이동찬 : React 뿐만 아니라 Git 와 GitHub 까지 리뷰할수 있어서 의미있던 프로젝트였습니다. 팀원들의 도움으로 멋진 결과물이 나온거 같습니다. :clap:
