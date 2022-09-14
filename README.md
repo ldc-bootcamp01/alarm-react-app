@@ -2,10 +2,9 @@
 :bulb: 알람 앱 React 리뷰용 미니 프로젝트
 
 ## :sun_with_face:프로젝트 주제 소개
-- :one: 사용자 지정 시간에 맞춰 알람해주는 애플리케이션
-- :two: 알람 추가, 삭제 및 수정기능
-- :three: 지정한 시간이 
-<img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"/> 사진찍을때 시간 놓치신다면 적극 추천!
+- :one: 알람 추가, 삭제 및 수정기능
+- :two: 지정한 시간이 되면 알람음이 울리고, 알람 끄기 버튼으로 알람을 끌 수 있음
+
 
 ## :sunglasses:팀원 명단
 - :bust_in_silhouette:이동찬 : 예매 / 예매 조회 / 예매 취소 기능 백엔드 구현
