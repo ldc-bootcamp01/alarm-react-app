@@ -7,15 +7,13 @@ const alarmRing = new Audio(process.env.PUBLIC_URL + '/morning-alarm.mp3');
 let count = 0;
 
 function App() {
-	// console.log('App 호출됨');
 	const [alarms, setAlarms] = useState([]);
 	const [curTime, setTime] = useState({ hour: 0, minute: 0 });
 	const [isRinging, setIsRinging] = useState(false);
 	const [rangId, setRangId] = useState(-1);
 
-	let intervalId;
 	useEffect(() => {
-		intervalId = setInterval(() => {
+		setInterval(() => {
 			const date = new Date();
 			const curHour = date.getHours();
 			const curMinute = date.getMinutes();
