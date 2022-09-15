@@ -34,6 +34,10 @@
 
 ## :heavy_check_mark:요구사항
 
+```
+git clone https://github.com/ldc-bootcamp01/alarm-react-app.git
+```
+
 <img src="https://icongr.am/devicon/npm-original-wordmark.svg?size=128&color=currentColor" width="50" height="50" />
 
 ```
